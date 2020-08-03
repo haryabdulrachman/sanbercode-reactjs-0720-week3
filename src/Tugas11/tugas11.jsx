@@ -30,7 +30,7 @@ class DaftarBuah extends React.Component {
             <tr>
               <td> <BuahBuahan nama={el.nama} /></td>
               <td> <BuahBuahan nama={el.harga} /></td>
-              <td> <BuahBuahan nama={el.berat} /></td>
+              <td> <BuahBuahan nama={el.berat / 1000 + ' kg'} /></td>
             </tr>
           )
         })}
