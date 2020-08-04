@@ -25,9 +25,9 @@ class DaftarBuah extends React.Component {
   render() {
     return (
       <>
-        {dataHargaBuah.map(el => {
+        {dataHargaBuah.map((el, index) => {
           return (
-            <tr>
+            <tr key={index}>
               <td> <BuahBuahan nama={el.nama} /></td>
               <td> <BuahBuahan nama={el.harga} /></td>
               <td> <BuahBuahan nama={el.berat / 1000 + ' kg'} /></td>
