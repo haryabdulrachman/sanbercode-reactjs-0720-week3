@@ -10,6 +10,7 @@ function App() {
       {/* <Tugas11 /> */}
       <Tugas12 />
       <Tugas13 />
+
     </div>
   );
 }
